@@ -8,9 +8,9 @@ def batch_badge_creator ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "
 puts "Hello, my name is #{batch_badge_creator}."
   end
 
-def assign_rooms
+def assign_rooms["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   assign_rooms.each do |assign_rooms|
-    puts "#{count}. #{assign_rooms}"
+    puts "Hello, #{assign_rooms}! You'll be assigned to room #{count}!"
     count +=1
   end
 
