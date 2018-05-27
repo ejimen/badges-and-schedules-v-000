@@ -10,8 +10,8 @@ puts "Hello, my name is #{batch_badge_creator}."
 
 def assign_rooms["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   assign_rooms.each do |assign_rooms|
-    puts "Hello, #{assign_rooms}! You'll be assigned to room #{count}!"
-    count +=1
+    puts "Hello, #{assign_rooms}! You'll be assigned to room #{room_number}!"
+    room_number +=1
   end
 
 def printer("batch_badge_creator","assign_rooms")
