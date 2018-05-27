@@ -8,6 +8,7 @@ def batch_badge_creator ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "
 puts "Hello, my name is #{batch_badge_creator}."
   end
 
+def assign_rooms
   assign_rooms.each do |assign_rooms|
     puts "#{count}. #{assign_rooms}"
     count +=1
