@@ -16,3 +16,5 @@ puts "Hello, my name is #{batch_badge_creator}."
   end
 
 def printer("batch_badge_creator","assign_rooms")
+  printer.each_with_index {|batch_badge_creator, assign_rooms|}
+end
